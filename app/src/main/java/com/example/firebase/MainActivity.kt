@@ -1,5 +1,6 @@
 package com.example.firebase
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -23,6 +24,10 @@ class MainActivity : AppCompatActivity() {
                 if (task.isSuccessful){
                     val user=mAuth!!.currentUser
                     Toast.makeText(this,"Usuario autenticado con exito",Toast.LENGTH_SHORT).show()
+                    //startActivity(
+                    //    Intent(this, VentanaDos::class.java).putExtra("valor", 10)
+                    //        .putExtra("textU", textU.text.toString())
+                    //)
                 }else{
                     Log.e("Autenticacion","Fallo en autenticacion")
                     Toast.makeText(this,"Conexion fallidas",Toast.LENGTH_SHORT)
