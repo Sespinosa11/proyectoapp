@@ -8,6 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!-- Color para el contenedor principal -->
-    <color name="azulAgua">#3679DF</color>
+    <!-- Azul agua -->
+    <color name="azul_agua">#3679DF</color>
+
 </resources>

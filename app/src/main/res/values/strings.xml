@@ -2,10 +2,10 @@
     <string name="app_name">Firebase</string>
 
     <string name="comentarioIng">Ingresar</string>
-    <string name="comentarioCE">Digita tu correo electrónico</string>
-    <string name="escribirCE">Correo electrónico</string>
-    <string name="comentarioCont">Digita tu contraseña</string>
-    <string name="escribirCont">Contraseña</string>
+    <string name="comentarioCE">Digite su correo electrónico</string>
+    <string name="escribirCE">..Correo electrónico</string>
+    <string name="comentarioCont">Digite su contraseña</string>
+    <string name="escribirCont">..Contraseña</string>
     <string name="registrarse">¿No tienes una cuenta?</string>
     <string name="recuperarCont">¿Olvido su contraseña?</string>
 </resources>
