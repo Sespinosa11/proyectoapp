@@ -33,7 +33,7 @@
             app:layout_constraintTop_toBottomOf="@+id/comentarioIng" />
 
         <EditText
-            android:id="@+id/escribirCE"
+            android:id="@+id/escribirCorreo"
             android:layout_width="match_parent"
             android:layout_height="32.5dp"
             android:layout_marginStart="22.5dp"
@@ -61,7 +61,7 @@
             android:text="@string/comentarioCont"
             android:textColor="@color/white"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/escribirCE" />
+            app:layout_constraintTop_toBottomOf="@+id/escribirCorreo" />
 
         <EditText
             android:id="@+id/escribirCont"
@@ -82,7 +82,7 @@
             app:layout_constraintTop_toBottomOf="@+id/comentarioCont" />
 
         <Button
-            android:id="@+id/autenticarse"
+            android:id="@+id/botonAutenticarse"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:layout_row="1"
@@ -112,7 +112,7 @@
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/autenticarse" />
+            app:layout_constraintTop_toBottomOf="@+id/botonAutenticarse" />
 
         <Button
             android:id="@+id/recuperarCont"
