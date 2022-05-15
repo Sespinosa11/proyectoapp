@@ -1,3 +1,3 @@
 # proyectoapp
 
-Construccion de aplicaciones moviles
+Construcción de aplicaciones móviles
