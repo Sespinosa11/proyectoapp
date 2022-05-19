@@ -10,6 +10,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.firestore.FirebaseFirestore
+import kotlinx.android.synthetic.main.content_pantalla_autenticacion.*
 
 class PantallaAutenticacion : AppCompatActivity() {
     lateinit var toggle: ActionBarDrawerToggle
@@ -17,6 +18,7 @@ class PantallaAutenticacion : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pantalla_autenticacion)
+        setSupportActionBar(toolbar)
 
         var textoUno: TextView = findViewById(R.id.saludo)
         val instanciaFirestore = FirebaseFirestore.getInstance()
@@ -40,10 +42,13 @@ class PantallaAutenticacion : AppCompatActivity() {
                 }
             }
 
-        val drawerLayout: DrawerLayout = findViewById(R.id.drawerLayout)
-        val navigationView: NavigationView = findViewById(R.id.navigationView)
 
-        toggle = ActionBarDrawerToggle(this, drawerLayout, R.string.abrir, R.string.cerrar)
+
+        val drawerLayout: DrawerLayout = findViewById(R.id.drawerLayout)
+        val navigationView: NavigationView = findViewById(R.id.navigation_menu)
+
+        val toggle = ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.abrir, R.string.cerrar)
+        toggle.isDrawerIndicatorEnabled = true
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
 

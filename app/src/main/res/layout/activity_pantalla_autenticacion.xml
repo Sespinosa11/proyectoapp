@@ -7,30 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".PantallaAutenticacion">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:id="@+id/saludo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Inicio"
-            android:textSize="25sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout="@layout/content_pantalla_autenticacion" />
 
     <com.google.android.material.navigation.NavigationView
-        android:id="@+id/navigationView"
-        android:layout_width="wrap_content"
+        android:id="@+id/navigation_menu"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:fitsSystemWindows="true"
         app:menu="@menu/nav_menu" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -10,14 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Firebase">
         <activity
-            android:name=".pantallaCarnes"
+            android:name=".PantallaCarnes"
             android:exported="false" />
         <activity
             android:name=".PantallaFrutas"
             android:exported="false" />
         <activity
             android:name=".PantallaAutenticacion"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
