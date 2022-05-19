@@ -30,7 +30,7 @@
 
     </item>
 
-    <item android:title="Comunicate">
+    <item android:title="Otros">
         <menu>
             <item
                 android:id="@+id/nav_settings"
