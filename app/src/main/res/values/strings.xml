@@ -8,4 +8,8 @@
     <string name="escribirCont">contraseña</string>
     <string name="registrarse">¿No tienes una cuenta?</string>
     <string name="recuperarCont">¿Olvido su contraseña?</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
 </resources>
