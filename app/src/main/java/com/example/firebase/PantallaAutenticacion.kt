@@ -20,7 +20,7 @@ class PantallaAutenticacion : AppCompatActivity() {
         setContentView(R.layout.activity_pantalla_autenticacion)
         setSupportActionBar(toolbar)
 
-        var textoUno: TextView = findViewById(R.id.textView2)
+        var textoUno: TextView = findViewById(R.id.saludo)
         val instanciaFirestore = FirebaseFirestore.getInstance()
 
         instanciaFirestore.collection("prueba")
@@ -87,14 +87,10 @@ class PantallaAutenticacion : AppCompatActivity() {
                     "Cliqueado Configuración",
                     Toast.LENGTH_SHORT
                 ).show()
-
             }
             true
-
         }
-
     }
-
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
         if (toggle.onOptionsItemSelected(item)) {
