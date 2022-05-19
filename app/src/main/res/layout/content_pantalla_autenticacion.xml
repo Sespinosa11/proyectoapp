@@ -20,13 +20,69 @@
         android:id="@+id/saludo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
         android:text="Bienvenido a DistriCorabastos"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="0.017" />
+        app:layout_constraintVertical_bias="0.035" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="436dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#212121"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Lacteos"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="433dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#212121"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Frutas"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="435dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#212121"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Carnes"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="435dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#212121"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Vegetales"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/distri"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="116dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
