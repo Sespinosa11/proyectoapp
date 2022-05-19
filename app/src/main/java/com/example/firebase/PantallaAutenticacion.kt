@@ -40,7 +40,7 @@ class PantallaAutenticacion : AppCompatActivity() {
         val drawerLayout: DrawerLayout = findViewById(R.id.drawerLayout)
         val navigationView: NavigationView = findViewById(R.id.navigationView)
 
-        toggle = ActionBarDrawerToggle(this, drawerLayout, R.string.open, R.string.close)
+        toggle = ActionBarDrawerToggle(this, drawerLayout, R.string.abrir, R.string.cerrar)
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
 

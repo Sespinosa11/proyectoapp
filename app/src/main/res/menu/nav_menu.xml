@@ -2,58 +2,43 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-
     <item
         android:id="@+id/nav_home"
         android:icon="@drawable/ic_baseline_home_24"
-        android:title="Home" />
+        android:title="Inicio" />
 
-    <item
-        android:id="@+id/nav_message"
-        android:icon="@drawable/ic_baseline_message_24"
-        android:title="Message" />
-
-    <item
-        android:id="@+id/nav_sync"
-        android:icon="@drawable/ic_baseline_sync_24"
-        android:title="Sync" />
-
-    <item
-        android:id="@+id/nav_trash"
-        android:icon="@drawable/ic_baseline_delete_24"
-        android:title="Trash" />
-
-    <item
-        android:id="@+id/nav_settings"
-        android:icon="@drawable/ic_baseline_settings_24"
-        android:title="Settings" />
-
-    <item android:title="Profile">
-
-    <menu>
-        <item
-            android:id="@+id/nav_login"
-            android:icon="@drawable/ic_baseline_login_24"
-            android:title="Login"/>
-    </menu>
-
-    </item>
-
-    <item android:title="Comunicate">
-
+    <item android:title="Categorias">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_baseline_share_24"
-                android:title="Share"/>
-
+                android:id="@+id/nav_lacteos"
+                android:icon="@drawable/ic_lacteos"
+                android:title="Lacteos" />
             <item
-                android:id="@+id/nav_rate_us"
-                android:icon="@drawable/ic_baseline_rate_review_24"
-                android:title="Rate us"/>
+                android:id="@+id/nav_frutas"
+                android:icon="@drawable/ic_frutas"
+                android:title="Frutas" />
+            <item
+                android:id="@+id/nav_vegetales"
+                android:icon="@drawable/ic_vegetales"
+                android:title="Vegetales" />
+            <item
+                android:id="@+id/nav_carnes"
+                android:icon="@drawable/ic_carnes"
+                android:title="Carnes" />
+
         </menu>
 
     </item>
 
+    <item android:title="Comunicate">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Configuración" />
+
+        </menu>
+
+    </item>
 
 </menu>

@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Firebase</string>
 
+    <!-- Inicio de sesión -->
     <string name="comentarioIng">Ingresar</string>
     <string name="comentarioCE">Digite su correo electrónico</string>
     <string name="escribirCE">correo electrónico</string>
@@ -9,7 +10,8 @@
     <string name="registrarse">¿No tienes una cuenta?</string>
     <string name="recuperarCont">¿Olvido su contraseña?</string>
 
-    <string name="open">Open</string>
-    <string name="close">Close</string>
+    <!-- Menú lateral -->
+    <string name="abrir">Abrir</string>
+    <string name="cerrar">Cerrar</string>
 
 </resources>
