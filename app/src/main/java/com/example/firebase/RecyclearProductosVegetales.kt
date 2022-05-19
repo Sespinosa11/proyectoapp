@@ -6,12 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.appcompat.view.menu.ActionMenuItemView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 
-class RecyclearProductoFrutas(private val context:Context, val producto: List<ProductosFrutas>): RecyclerView.Adapter<RecyclearProductoFrutas.MiHolder>(){
+class RecyclearProductoVegetales(private val context:Context,val producto:List<ProductosVegetales>): RecyclerView.Adapter<RecyclearProductoVegetales.MiHolder>(){
 
 
     //se clasifica la imagen el m¿nombre y el precio
@@ -29,7 +28,7 @@ class RecyclearProductoFrutas(private val context:Context, val producto: List<Pr
     }
     // se crea la vista
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MiHolder {
-        val itemView =LayoutInflater.from(context).inflate(R.layout.frutas_res_row_item,parent,false)
+        val itemView =LayoutInflater.from(context).inflate(R.layout.vegetales_rest_row_item,parent,false)
         return MiHolder(itemView)
 
     }
@@ -45,4 +44,5 @@ class RecyclearProductoFrutas(private val context:Context, val producto: List<Pr
     override fun getItemCount(): Int {
         return producto.size
     }
+
 }

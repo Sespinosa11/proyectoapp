@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Firebase">
         <activity
-            android:name=".PantallaCarnes"
+            android:name=".PantallaVegetales"
+            android:exported="false" />
+        <activity
+            android:name=".ProductosVegetales"
+            android:exported="false" />
+        <activity
+            android:name=".pantallaCarnes"
             android:exported="false" />
         <activity
             android:name=".PantallaFrutas"

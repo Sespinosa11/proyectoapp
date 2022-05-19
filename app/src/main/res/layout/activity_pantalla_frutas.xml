@@ -12,20 +12,22 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Frutas"
         android:textColor="#272677"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <EditText
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/search_bg"
         android:drawableLeft="@drawable/ic_baseline_search_24"
@@ -35,9 +37,9 @@
         android:inputType="textPersonName"
         android:paddingStart="16dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
-
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
@@ -56,7 +58,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="Nuestra Variedad"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
@@ -68,7 +71,7 @@
             android:layout_width="0dp"
             android:layout_height="387dp"
             android:layout_marginTop="20dp"
-            android:background="@color/white"
+            android:background="#212121"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"

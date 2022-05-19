@@ -31,7 +31,7 @@
             android:layout_marginStart="204dp"
             android:layout_marginTop="8dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Libra de carne"
+            android:text="Libra de producto"
             android:textColor="#091020"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -59,14 +59,14 @@
             android:layout_marginTop="37dp"
             android:layout_marginBottom="52dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Las carnes aportan atributos para una alimentación balanceada ya que es una de las principales fuentes de proteína, hierro y vitamina B12."
+            android:text="Son considerados alimentos clave en una dieta equilibrada, ya que tienen todos los nutrientes necesarios para mantener tu salud y bienestar."
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/imagenItem"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="1.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
